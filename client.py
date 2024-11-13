@@ -3,7 +3,7 @@
 from MyAriaDialogAPI import MyAriaDialogAPI
 
 # Replace with your EC2 instance's public IP address without 'http://'
-EC2_PUBLIC_IP = '10.22.178.194'  # e.g., '54.123.45.67'
+EC2_PUBLIC_IP = 'aria-nist.randpartners.org'  # e.g., '54.123.45.67'
 
 auth = {'api_key': 'rand_aria_testing_7enidjsweiw'}
 api = MyAriaDialogAPI(endpoint=f'http://{EC2_PUBLIC_IP}:5000')
